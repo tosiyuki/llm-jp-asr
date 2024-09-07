@@ -25,7 +25,7 @@ audio,sentence
 ```
 
 > [!TIP]
-> データのフォーマットを変更したい場合、llm_asr/train/dataset.pyのLazySupervisedDatasetを変更してください。
+> データのフォーマットを変更したい場合、[llm_asr/train/dataset.py](https://github.com/tosiyuki/llm-jp-asr/blob/main/llm_asr/train/dataset.py)のLazySupervisedDatasetを変更してください。
 
 ## 実行
 ### 学習
@@ -34,7 +34,7 @@ poetry run python train.py
 ```
 
 > [!TIP]
-> 起動引数についてはllm_asr/train/arguments_dataclass.pyを参考にしてください。
+> 起動引数については[llm_asr/train/arguments_dataclass.py](https://github.com/tosiyuki/llm-jp-asr/blob/main/llm_asr/train/arguments_dataclass.py)を参考にしてください。
 
 ### 推論
 ```
