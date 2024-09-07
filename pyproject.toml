@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "bungaku-asr"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+stable-ts = "2.16.0"
+punctuators = "0.0.5"
+python-levenshtein = "^0.25.1"
+datasets = "^2.21.0"
+transformers = "4.43.4"
+librosa = "^0.10.2.post1"
+pydub = "^0.25.1"
+evaluate = "^0.4.2"
+jiwer = "^3.0.4"
+accelerate = "^0.33.0"
+silero-vad = "^5.1"
+tensorflow = "2.17.0"
+inaspeechsegmenter = "^0.7.10"
+tf-keras = "^2.17.0"
+bitsandbytes = "^0.43.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
